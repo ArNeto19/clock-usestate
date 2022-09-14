@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="container">
       <h1>{currentTime}</h1>
-      <button onClick={uptadeClock}>Get Time</button>
+      <button onClick={() => console.log(currentTime)}>Get Time</button>
     </div>
   );
 }
